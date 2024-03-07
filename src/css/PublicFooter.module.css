@@ -63,7 +63,6 @@
     box-sizing: content-box;
     display: block;
     width: 20%;
-    border: 2px white solid;
 }
 
 .FollowUsTextDiv {
@@ -88,7 +87,6 @@
 }
 
 .MainSubscrible {
-    border: 2px white solid;
     padding-top: 50px;
     padding-left: 80px;
     box-sizing: content-box;
