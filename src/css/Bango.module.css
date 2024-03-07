@@ -51,5 +51,10 @@
     display: flex;
 }
 
+.displaynumber {
+    text-align: center;
+    width: 70px;
+}
+
 
 

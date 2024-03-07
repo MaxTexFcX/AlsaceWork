@@ -24,7 +24,7 @@ const BangoPage = () => {
         },
         {
             id: 1,
-            emoji_icon: '❤',
+            emoji_icon: '💖',
             emoji_status: true
         },
         {
@@ -166,8 +166,8 @@ const BangoPage = () => {
             setRecord(prevRecord => [...prevRecord, currentEmoji]);
             SetEmojiStatus()
             setRandom(0)
-            await delay(10000);
-            // await delay(300);
+            //await delay(10000);
+            await delay(300);
             setRandom(10000000000);
             setSpeed(0);
             setPGRunning(false)
@@ -218,7 +218,16 @@ const BangoPage = () => {
             <div className={BGcss.RecordLIst}>
                 {/* <h3>Emoji Record: {indexnumber}</h3> */}
                 {record.map((emoji, index) => (
-                    <p key={index}>{emoji}</p>
+                    <div>
+                    { index >= 1 ? (
+                        <div>
+                            <p key={index} className={BGcss.displaynumber}>{index}</p>
+                            <p key={index} className={BGcss.displaynumber}>{emoji}</p>
+                        </div>
+                    ) : (
+                        null
+                    )}
+                    </div>
                 ))}
 
             </div>
