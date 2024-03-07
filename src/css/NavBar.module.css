@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+.NavBarMain {
+    font-family: 'Russo One', sans-serif;
+    box-sizing: border-box;
+    justify-content: flex-end;
+    align-items: center;
+    display: flex;
+    height: 75px;
+    width:  100%;
+    background-color: rgb(255, 255, 255);
+}
+
+.Main {
+    margin-right: auto;
+    display: flex;
+    width: 400px;
+}
+
+.Img {
+    height: 60px;
+    width: 60px;
+    cursor: pointer;
+}
+
+.Title {
+    margin: 10px 0px 10px 10px;
+    font-size: 30px;
+}
+
+.SubText{
+    margin-right: 100px;
+    display: flex;
+}
+
+.Nav_links {
+    list-style: none;
+}
+
+.Nav_links li{
+    display: inline-block;
+    padding: 10px 15px;
+}
+
+.Nav_links li a{
+    transition: all 0.3s ease 0s;
+}
+
+.Nav_links li a:hover{
+    color: rgb(255, 168, 36);
+}
+
+.Login {
+    padding: 9px 25px;
+    background-color: rgba(255, 154, 3, 1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.Login:hover {
+    background-color: rgba(255, 154, 3, 0.8);
+}

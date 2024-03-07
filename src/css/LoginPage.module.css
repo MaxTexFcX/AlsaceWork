@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+.MainDiv {
+    font-family: 'Russo One', sans-serif;
+}
+
+.BGImg {
+    width: 100;
+    height: 100vh;
+}
+
+.LoginDiv {
+    margin: auto;
+    margin-top: 160px;
+    padding: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 20px;
+    width: 500px;
+    height: 500px;
+    backdrop-filter: blur(5px);
+}
+
+.Title {
+    margin: auto;
+    text-align: center;
+}
+
+.Title p {
+    padding-top: 50px;
+    color: white;
+    text-shadow: 2px 2px #000000;
+    font-size: 50px;
+}
+
+.Form {
+    margin-left: 85px;
+    margin-top: 60px;
+    font-size: 20px;
+}
+
+.Form input {
+    width: 300px;
+    border: 2px rgb(177, 173, 173) solid;
+    border-radius: 25px;
+    padding: 8px 30px;
+    margin-bottom: 20px;
+    color: rgb(0, 0, 0);
+}

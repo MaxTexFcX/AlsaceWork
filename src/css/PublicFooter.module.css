@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Russo One', sans-serif;
+}
+
+.MainSection {
+    width: 100%;
+    height: 45vh;
+    background-color: rgb(46, 46, 46);
+    display: flex;
+}
+
+.LogoDescription {
+    float: left;
+    margin-left: 10%;
+    height: 100%;
+    width: 20%;
+    background-color: rgb(97, 97, 97);
+}
+
+.LogoImgDiv {
+    margin-top: 60px;
+    margin-left: 30px;
+    width: 140px;
+    height: 140px;
+    display: flex;
+}
+
+.LogoText {
+    text-shadow: 0 0 3px #000000, 0 0 5px #000000fb;
+    margin-top: 10px;
+    margin-left: 60px;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+}
+
+.DescriptionDiv {
+    margin-left: 60px;
+    margin-top: 5px;
+}
+
+.DescriptionText {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.MainDescription {
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    height: 20vh;
+    width: 80%;
+}
+
+.FollowUsDiv {
+    float: left;
+    padding-top: 50px;
+    padding-left: 80px;
+    box-sizing: content-box;
+    display: block;
+    width: 20%;
+    border: 2px white solid;
+}
+
+.FollowUsTextDiv {
+    width: 100%;
+}
+
+.FollowUsText {
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+}
+
+.IconDiv {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    width: 60%;
+}
+
+.icon {
+    margin-left: -20px;
+    width: 15%;
+}
+
+.MainSubscrible {
+    border: 2px white solid;
+    padding-top: 50px;
+    padding-left: 80px;
+    box-sizing: content-box;
+    display: block;
+    width: 60%;
+}
+
+.SubscribleTextDiv {
+    width: 100%;
+}
+
+.SubscribleText {
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+}
+
+.SubscribleTxtBox {
+    width: 45%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.SubscribleBtn {
+    color: rgb(255, 255, 255);
+    margin-left: 1px;
+    border: 1px solid rgba(255, 154, 3, 1);
+    border-radius: 8px;
+    background-color: rgba(255, 154, 3, 1);
+    width: 80px;
+    height: 50px;
+}
+
+.FooterLine {
+    margin-left: 50px;
+    margin-top: 30px;
+    background-color: #ffffff;
+    width: 80%;
+    height: 3px;
+}
+
